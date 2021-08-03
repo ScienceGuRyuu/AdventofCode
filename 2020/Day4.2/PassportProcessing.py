@@ -1,6 +1,6 @@
 import re
 
-batch_file_path = "/home/ryan/Documents/AdventOfCode/2020/Day4.1/batch_file.txt"
+batch_file_path = "PATH_TO_FILE"
 
 class Validation:
     def __init__(self, passport_file):
