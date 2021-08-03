@@ -2,7 +2,7 @@
 
 import re
 
-expenses_file = open("/home/ryan/Documents/AdventOfCode/2020/Day2.1/passwords.txt", "r")
+expenses_file = open("PATH_TO_FILE", "r")
 
 number_of_valid_passwords = 0
 
