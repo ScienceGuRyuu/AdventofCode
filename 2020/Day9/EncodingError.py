@@ -1,7 +1,7 @@
 from itertools import combinations
 
-preamble_list_path = '/home/ryan/Documents/AdventOfCode/2020/Day9/input.txt'
-test_list_path = '/home/ryan/Documents/AdventOfCode/2020/Day9/test_data.txt'
+preamble_list_path = "PATH_TO_FILE"
+test_list_path = "PATH_TO_FILE"
 
 
 class Encoder:
