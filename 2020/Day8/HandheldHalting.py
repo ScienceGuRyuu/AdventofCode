@@ -1,4 +1,4 @@
-instruction_path = '/home/ryan/Documents/AdventOfCode/2020/Day8/instruction.txt'
+instruction_path = "PATH_TO_FILE"
 
 
 # instruction_path = '/home/ryan/Documents/AdventOfCode/2020/Day8/test_seats.txt'
