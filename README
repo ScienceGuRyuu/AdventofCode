@@ -1,12 +1,11 @@
-Advent of Code
+# Advent of Code
+This is a collection of answers to an every-growing list Advent of Code challange.
 
-This is a collection of answers to the 2020 Advent of Code challange.
-
-My goal with this is NOT to treat this as a competitive-level programing endeavour, but rather a learning experience. With that in mind, I tried to do each challange with these things in mind:
-
-1.) I wanted to make clear and readable coode above all else
-2.) I wanted to make the code as modular (using OOP) as possible
-3.) I wanted to make the code re-usable if I ever encountered a similar problem in the future
-4.) I wanted to gain as much practical development skills as I could that may not be 100% refelcted in the final release
+# I aim to 
+* make clear and readable code
+* make the code as modular as possible
+* make the code re-usable if I ever encountered a similar problem in the future
+* learn new lanquages and frameworks
+* gain as much practical development skills as I could that may not be 100% refelcted in the final release
 
 If you have any questions, please do not hesitate to reach out!
