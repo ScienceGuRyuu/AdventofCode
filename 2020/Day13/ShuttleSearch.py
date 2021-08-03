@@ -1,8 +1,7 @@
 import re
 from math import ceil, prod
 
-instruction_file_path = '/home/ryan/Documents/AdventOfCode/2020/Day13/bus.txt'
-# instruction_file_path = '/home/ryan/Documents/AdventOfCode/2020/Day13/test.txt'
+instruction_file_path = "PATH_TO_FILE"
 
 
 class Scheduler:
