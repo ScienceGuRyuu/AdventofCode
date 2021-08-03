@@ -1,26 +1,12 @@
 #!/usr/bin/python
 import math
 
-base_map_path = '/home/ryan/Documents/AdventOfCode/2020/Day3.1/base_map.txt'
+base_map_path = "PATH_TO_FILE"
 
 
 
 with open(base_map_path) as base_map:
     listed_map = [line.split() for line in base_map]
-
-"""listed_map =[
-    ['..##.......'],
-    ['#...#...#..'],
-    ['.#....#..#.'],
-    ['..#.#...#.#'],
-    ['.#...##..#.'],
-    ['..#.##.....'],
-    ['.#.#.#....#'],
-    ['.#........#'],
-    ['#.##...#...'],
-    ['#...##....#'],
-    ['.#..#...#.#']
-]"""
 
 def TobogganChecker(right, down):
     checking_x_index = 0
