@@ -3,7 +3,7 @@
 
 expenses_list = []
 
-expenses_file = open("/home/ryan/Documents/AdventOfCode/2020/Day1.1/data.txt", "r")
+expenses_file = open("PATH_TO_FILE", "r")
 
 for line in expenses_file.readlines():
     line_int = int(line)
