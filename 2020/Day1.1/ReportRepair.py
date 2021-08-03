@@ -3,7 +3,7 @@
 
 expenses_list = []
 
-expenses_file = open("/home/ryan/Documents/AdventOfCode/2020/Day1.1/data.txt", "r")
+expenses_file = open("PATH_TO_FILE", "r")
 
 for line in expenses_file.readlines():
     line_int = int(line)
@@ -19,6 +19,5 @@ for i in range(len(expenses_list)):
     if complement in hash_table:
         print(expenses_list[i] * complement)
     hash_table[expenses_list[i]] = expenses_list[i]
-
 
 
