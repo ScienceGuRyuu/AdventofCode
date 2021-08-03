@@ -1,6 +1,6 @@
 import re
 
-data_path = "/home/ryan/Documents/AdventOfCode/2020/Day7/input.txt"
+data_path = "PATH_TO_FILE"
 
 
 def bag_data_structure(file_path):
