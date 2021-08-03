@@ -1,7 +1,7 @@
 from collections import Counter
 
-custom_declorations_path = "/home/ryan/Documents/AdventOfCode/2020/Day6/custom_declorations.txt"
-test_path = "/home/ryan/Documents/AdventOfCode/2020/Day6/test1.txt"
+custom_declorations_path = "PATH_TO_FILE"
+test_path = "PATH_TO_FILE"
 
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
