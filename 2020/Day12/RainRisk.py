@@ -1,5 +1,4 @@
-instruction_file_path = '/home/ryan/Documents/AdventOfCode/2020/Day12/flight_path.txt'
-# instruction_file_path = '/home/ryan/Documents/AdventOfCode/2020/Day12/test.txt'
+instruction_file_path = "PATH_TO_FILE"
 
 
 class AutoPilot:
