@@ -1,5 +1,4 @@
-seats = '/home/ryan/Documents/AdventOfCode/2020/Day11/seating_chart.txt'
-# seats = '/home/ryan/Documents/AdventOfCode/2020/Day11/test_seats.txt'
+seats = "PATH_TO_FILE"
 
 
 class Seater:
