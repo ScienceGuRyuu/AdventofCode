@@ -1,5 +1,5 @@
 from operator import add
-passes_file_path = '/home/ryan/Documents/AdventOfCode/2020/Day5.1/passes.txt'
+passes_file_path = "PATH_TO_FILE"
 
 with open(passes_file_path) as file:
     passes_list = [line.strip() for line in file]
