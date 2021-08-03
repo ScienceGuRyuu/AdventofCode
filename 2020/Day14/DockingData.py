@@ -1,8 +1,7 @@
 import re
 import itertools
 
-instruction_file_path = '/home/ryan/Documents/AdventOfCode/2020/Day14/program.txt'
-instruction_file_path = '/home/ryan/Documents/AdventOfCode/2020/Day14/test.txt'
+instruction_file_path = "PATH_TO_FILE"
 
 
 class Machine:
