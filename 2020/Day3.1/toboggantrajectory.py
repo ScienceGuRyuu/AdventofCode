@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-base_map_path = '/home/ryan/Documents/AdventOfCode/2020/Day3.1/base_map.txt'
+base_map_path = "PATH_TO_FILE"
 
 tree_counter = 0
 previous_y_index = 0
