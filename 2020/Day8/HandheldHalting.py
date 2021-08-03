@@ -1,7 +1,7 @@
 instruction_path = '/home/ryan/Documents/AdventOfCode/2020/Day8/instruction.txt'
 
 
-# instruction_path = '/home/ryan/Documents/AdventOfCode/2020/Day8/test.txt'
+# instruction_path = '/home/ryan/Documents/AdventOfCode/2020/Day8/test_seats.txt'
 
 def make_action_data_structure(instruction_path):
     instructions = []

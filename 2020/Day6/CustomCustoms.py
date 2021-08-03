@@ -27,7 +27,7 @@ def get_group(file_path):
                 sum_count += count_chars(group)
                 yes_count += count_yes(group, people_in_group)
                 #print("yes_count: ", yes_count)
-                #input()
+                #input.txt()
                 group = ""
                 people_in_group = 0
     return sum_count, yes_count

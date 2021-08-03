@@ -1,7 +1,9 @@
 import re
+import itertools
 
 instruction_file_path = '/home/ryan/Documents/AdventOfCode/2020/Day14/program.txt'
 instruction_file_path = '/home/ryan/Documents/AdventOfCode/2020/Day14/test.txt'
+
 
 class Machine:
     def __init__(self, file_path):
@@ -10,27 +12,37 @@ class Machine:
         self.make_instructions()
 
     def make_instructions(self):
-        with open(self.file_path) as f:
-            lines = f.readlines()
-            last_line = lines[-1]
-            first_line = lines[0]
-            mask = ''
-            list_of_instructions = []
-            for line in f:
-                if line == last_line:
-                    self.list_of_instructions.append([mask, list_of_instructions])
-                elif re.match("mask", line):
-                    if line != first_line:
-                        self.list_of_instructions.append([mask, list_of_instructions])
-                        list_of_instructions = []
-                    mask = re.sub("mask = ", "", line)
-                elif re.match("mem", line):
-                    list_of_instructions.append(re.findall('\d+', line))
+        for line in open(self.file_path):
+            line = line.strip('\n')
+            self.list_of_instructions.append(line)
+
+    def execute_instructions(self, list_of_instructions):
+        mask = re.sub("mask = ", "", list_of_instructions[0])
+        instructions = list_of_instructions[1:]
+        for i in range(len(instructions)):
+            address_and_value = re.findall("\d+", instructions[i])
+            instructions[i] = address_and_value
+        for value in instructions:
+            int_value = int(value[1])
+            binary_value_string = '{0:036b}'.format(int_value)
+            value_to_use = binary_value_string
+            for i in range(len(binary_value_string)):
+                if mask[i] != "X":
+                    value_to_use = value_to_use[:i] + mask[i] + value_to_use[i+1:]
+                    print(value_to_use)
+                elif mask[i] == 'X':
+                    value_to_use = value_to_use[:i] + binary_value_string[i] + value_to_use[i+1:]
+                    print(value_to_use)
+
+
+
+
+
 
 
 def main():
     finder = Machine(instruction_file_path)
-    print(finder.list_of_instructions)
+    finder.execute_instructions(finder.list_of_instructions)
 
 
 if __name__ == "__main__":
