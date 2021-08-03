@@ -1,8 +1,8 @@
 from collections import defaultdict
 
-short_test_path = '/home/ryan/Documents/AdventOfCode/2020/Day10/short_test.txt'
-long_test_path = '/home/ryan/Documents/AdventOfCode/2020/Day10/long_test.txt'
-input_path = '/home/ryan/Documents/AdventOfCode/2020/Day10/input.txt'
+short_test_path = "PATH_TO_FILE"
+long_test_path = "PATH_TO_FILE"
+input_path = "PATH_TO_FILE"
 
 
 class ShockMaster:
